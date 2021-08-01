@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rosarivo", sans-serif;
+}
+
+.yellow-header {
+  background-color: #F3D250;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 50px;
+}
+
+.logo {
+  color: white;
+  font-family: "Brush Script MT", cursive;
+  font-size: 70px;
+  font-stretch: expanded;
+  letter-spacing: 50px;
+}
+
+.me {
+  height: 80px;
+  border-radius: 50%;
+}
+
+.nav-content {
+  background-color: #F3D250;
+  color: #0D2B4A;
+  font-family: Rosarivo;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+a {
+  width: 33%;
+  text-align: center;
+}
+
+.nav-content a:hover {
+  background-color: white;
+}
+
+.card {
+  border: #F3D250 2px solid;
+  width: 400px;
+  height: 150px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #F3D250;
+  box-shadow: 3px 3px 5px black;
+}
+
+.title {
+  color: #0D2B4A;
+  font-family: Rosarivo;
+  text-align: center;
+  padding: 5px;
+  font-size: 20px;
+}
+
+.card-text {
+  color: black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-family: "Rosarivo", sans-serif;
+  font-size: 15px;
+}
+
+li {
+  padding: 10px;
+  display: flex;
+  text-align: left;
+}
+
+.AboutMe {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.My-Prodjects {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  justify-content: center;
+  column-gap: 20px;
+}
+
+.past-experience {
+  display: flex;
+  justify-content: center;
+  column-gap: 20px;
+  padding: 10px;
+  padding-right: 10px;
+}
+
+.contact {
+  background-color: #F3D250;
+  display: flex;
+  justify-content: center;
+  color: #0D2B4A;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+}
