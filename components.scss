@@ -1,0 +1,29 @@
+@import "./base"; 
+
+.yellow-header{
+    background-color: $color-primary;
+    display: flex;
+    justify-content:space-between;
+    padding-left: 50px;
+}
+
+.logo{
+    color: white;
+    font-family: $font-logo;
+    font-size: 70px;
+    font-stretch: expanded;
+    letter-spacing: 50px;
+}
+.me {
+    height: 80px;
+    border-radius: 50%;
+    }
+    .card{
+        border: $color-primary 2px solid; 
+        width: 400px;
+        height: 150px;
+        padding: 10px;
+        border-radius: 5px;
+        background-color: $color-primary;
+        box-shadow:3px 3px 5px black;
+    }

@@ -1,0 +1,75 @@
+@import "./base"; 
+
+.nav-content{
+    background-color: $color-primary;
+    color: $color-text;
+    font-family: Rosarivo;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a{
+    width: 33%;
+    text-align: center;
+}
+.nav-content a:hover{
+    background-color: white;
+}
+.title {
+    color: #0D2B4A;
+    font-family: Rosarivo;
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+}
+.card-text {
+    color: black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-family: $font-body;
+    font-size: 15px;
+}
+li{
+    padding: 10px;
+    display: flex;
+    text-align:left;
+}
+.AboutMe {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.My-Prodjects {
+    display: flex;
+    justify-content:space-around;
+    padding: 10px;
+    justify-content: center;
+    column-gap: 20px;
+}
+.past-experience{
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    padding: 10px;
+    padding-right: 10px;
+}
+.contact{
+    background-color: #F3D250;
+    display: flex;
+    justify-content: center;
+    color: $color-text;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+    main {width: 300px;}
+}
+
+@media screen and (min-width: 991) {
+    main { width:500px;}
+}
